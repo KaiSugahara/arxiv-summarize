@@ -1,6 +1,6 @@
 # arxivrec-reporter
 
-Automated arXiv paper summarization and notification via Slack using GPT-3.5 (OpenAI)
+Automated summary and notification of arXiv papers on recommendation systems via Slack using GPT-3.5 (OpenAI).
 
 Note: This app is specialized for Japanese. Please use a translation tool as needed to read the following description, which is provided in Japanese.
 
