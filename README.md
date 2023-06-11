@@ -1,4 +1,4 @@
-# arxiv-summarize
+# arxiv-summarizer
 
 Automated arXiv paper summarization and notification via Slack using GPT-3.5 (OpenAI)
 
