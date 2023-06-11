@@ -1,0 +1,11 @@
+version: "3"
+services:
+  cron:
+    image: arxiv-summarize
+    build:
+      context: .
+      args:
+        - SLACK_URL=$SLACK_URL
+        - OPENAI_API_KEY=$OPENAI_API_KEY
+    volumes:
+      - ./main.py:/main.py
