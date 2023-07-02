@@ -60,7 +60,7 @@ if __name__ == '__main__':
             検索対象日を計算
         """
         
-        date = datetime.datetime.now(pytz.timezone('Asia/Tokyo')) - datetime.timedelta(days=7) # 3日前
+        date = datetime.datetime.now(pytz.timezone('Asia/Tokyo')) - datetime.timedelta(days=1) # 1日前
         date = date.strftime("%Y%m%d")
         print("対象日:", date)
         
