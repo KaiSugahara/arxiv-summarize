@@ -77,7 +77,7 @@ if __name__ == '__main__':
         query_word = "%28" + " OR ".join([f'all:{w}' for w in words]) + "%29"
         
         # クエリ: 検索対象日
-        query_date = f"submittedDate:[{date} TO {date}1235959]"
+        query_date = f"submittedDate:[{date} TO {date}235959]"
         
         # クエリを結合
         query = " AND ".join([query_cat, query_word, query_date])
